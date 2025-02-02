@@ -1,0 +1,134 @@
+body {
+    background-image:url("AUS.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color:whitesmoke;
+    font-family:'Georgia', 'Times New Roman', 'Times', 'serif';
+}
+
+h1{
+    font-size:50px;
+}
+div {
+    background-color: rgba(250,235,215,0.6);
+    color:black;
+    border-left: 4px solid #4d2222;
+    padding-left: 30px;
+    border-radius:5px;
+    margin-bottom:50px;
+}
+.image {
+    width:400px;
+    height:400px;
+    margin: auto;
+
+}
+
+.image2 {
+    width:300px;
+    margin: auto;
+    padding-left:0px;
+    border: 4px groove #4d2222;
+    margin-top: 222px;
+}
+
+img#me-800-by-800, img#me-300-by-300{
+    display: block;
+    margin: auto;
+}
+
+
+div.image{
+    padding-left:0px;
+    border: 4px groove #4d2222;
+}
+
+div h2{
+    font-size: 30px;
+}
+
+div#Name_info{
+    margin-top:50px;
+}
+div#Name_info p{
+    font-size: 26px;
+}
+div#Name_info address{
+    font-size: 20px;
+}
+
+
+div#Name_info a{
+    padding: 16px 15px;
+    display: inline-block;
+    margin-left:15px;
+    margin-bottom:5px;
+    border:2px groove chocolate;
+    text-decoration:none;
+    color: black;
+}
+
+div#Name_info a#Email{
+    border:2px solid transparent;
+    text-decoration:underline dotted;
+}
+
+div#Name_info a:hover,a:active{
+    background-color:crimson;
+    color:white;
+}
+
+div#Name_info a#Email:hover,a#Email:active{
+    background-color:transparent;
+    text-shadow:3px 3px 20px crimson, 0px 0px 15px brown;
+}
+div#Intro p{
+    font-size:24px;
+    line-height: 35px;
+}
+
+ul{
+    list-style-type:disc;
+}
+
+li{
+    font-size:24px;
+    margin-bottom: 15px;
+}
+
+.sub{
+    padding:10px;
+}
+
+div#Hobby li a{
+    display:inline-block;
+    text-align:center;
+    padding:10px 15px;
+    border: 2px groove chocolate;
+    margin-bottom: 5px;
+    text-decoration:none;
+    color:black;
+}
+
+div#Hobby li a:hover, a:active{
+    background-color:crimson;
+    color:white;
+}
+
+div#Fun_info p{
+    font-size:26px;
+    line-height: 35px;
+}
+
+#Update{
+    border-radius: 5px;
+    padding: 15px 15px;
+    color:black;
+    font-size:20px;
+    text-align: right;
+    display: inline-block;
+    background-color: rgba(250,235,215,0.6);
+    border-left: 4px solid #4d2222;
+    margin-left: 940px;
+}
